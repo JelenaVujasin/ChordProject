@@ -1,0 +1,8 @@
+pause 30000
+add_friend [localhost:1300]
+pause 12000
+add_file [file2.txt] [private]
+pause 12000
+pause 10000
+pause 30000
+stop

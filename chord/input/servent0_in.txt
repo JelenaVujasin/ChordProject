@@ -1,0 +1,10 @@
+pause 51000
+add_friend [localhost:1100]
+add_file [file1.txt] [public]
+pause 5000
+add_file [file3.txt] [private]
+pause 20000
+pause 35000
+remove_file file1.txt
+pause 30000
+stop

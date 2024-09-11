@@ -1,0 +1,271 @@
+17:17:37 - Starting servent [-62|localhost|1400]
+17:17:37 - Pausing for 10000 ms
+RET VAL localhost:1200
+- MY CONTACT NODE IS 1200
+17:17:39 - Sending message [-62|localhost:1400|0||NEW_NODE|localhost:1200|-56]
+17:17:43 - Got message [-59|localhost:1300|7||WELCOME|localhost:1400|-62]
+17:17:43 - Sending message [-62|localhost:1400|1||UPDATE|localhost:1300|-59]
+17:17:47 - Got message [-62|localhost:1400|32|localhost:1300,localhost:1200,localhost:1100,localhost:1000|UPDATE|localhost:1400|-62]
+17:17:47 - Sending PING message to Predecessor[-62|localhost:1400|3|Pred|PING|localhost:1000|-50]
+17:17:47 - Sending PING message to Successor[-62|localhost:1400|4|Suc|PING|localhost:1300|-59]
+17:17:47 - Pausing for 10000 ms
+17:17:48 - Sending message [-62|localhost:1400|4|Suc|PING|localhost:1300|-59]
+17:17:48 - Sending PING message to Predecessor after WEAK_TIMEOUT[-62|localhost:1400|3|Pred|PING|localhost:1000|-50]
+17:17:48 - Sending message [-62|localhost:1400|3|Pred|PING|localhost:1000|-50]
+17:17:49 - Sending message [-62|localhost:1400|2||JOINED|localhost:1300|-59]
+17:17:49 - Sending message [-62|localhost:1400|3|Pred|PING|localhost:1000|-50]
+17:17:49 - Got message [-59|localhost:1300|12|Suc|PONG|localhost:1400|-62]
+17:17:49 - Got message [-59|localhost:1300|13|Pred|PING|localhost:1400|-62]
+17:17:49 - Sending PONG message [-62|localhost:1400|5|Pred|PONG|localhost:1300|-59]
+17:17:49 - Got message [-50|localhost:1000|34|Pred|PONG|localhost:1400|-62]
+17:17:50 - Got message [-50|localhost:1000|33|1100|ADD_FRIEND|localhost:1400|-62]
+REQUEST MESSAGE PORT 1100
+17:17:50 - Got message [-50|localhost:1000|35|Pred|PONG|localhost:1400|-62]
+17:17:50 - Sending message [-62|localhost:1400|5|Pred|PONG|localhost:1300|-59]
+17:17:50 - Sending message [-62|localhost:1400|6|1100|ADD_FRIEND|localhost:1300|-59]
+17:17:50 - Got message [-50|localhost:1000|36|1300|ADD_FRIEND|localhost:1400|-62]
+REQUEST MESSAGE PORT 1300
+17:17:50 - Got message [-59|localhost:1300|13|Pred|PING|localhost:1400|-62]
+17:17:50 - Sending PONG message [-62|localhost:1400|8|Pred|PONG|localhost:1300|-59]
+17:17:52 - Sending message [-62|localhost:1400|7|1300|ADD_FRIEND|localhost:1300|-59]
+17:17:52 - Sending message [-62|localhost:1400|8|Pred|PONG|localhost:1300|-59]
+17:17:53 - Got message [-50|localhost:1000|37||UPDATE_CHORD|localhost:1400|-62]
+17:17:53 - File file1.txt stored successfully.
+17:17:53 - Sending inform message [-62|localhost:1400|9||UPDATE_CHORD|localhost:1300|-59]
+- STANJE U VIRUTAL STORAGE
+1:file1.txt --  inside node: 1000
+
+
+17:17:53 - Got message [-50|localhost:1000|38||TOKEN|localhost:1400|-62]
+17:17:54 - Sending message [-62|localhost:1400|10||TOKEN|localhost:1300|-59]
+17:17:54 - Sending message [-62|localhost:1400|9||UPDATE_CHORD|localhost:1300|-59]
+17:17:55 - Got message [-50|localhost:1000|40|Suc|PING|localhost:1400|-62]
+17:17:55 - Sending PONG message [-62|localhost:1400|11|Suc|PONG|localhost:1000|-50]
+17:17:56 - Sending message [-62|localhost:1400|11|Suc|PONG|localhost:1000|-50]
+17:17:57 - Pausing for 10000 ms
+17:17:58 - Sending PING message to Predecessor[-62|localhost:1400|12|Pred|PING|localhost:1000|-50]
+17:17:58 - Sending PING message to Successor[-62|localhost:1400|13|Suc|PING|localhost:1300|-59]
+17:17:58 - Got message [-50|localhost:1000|42||TOKEN|localhost:1400|-62]
+17:17:59 - Sending message [-62|localhost:1400|14||TOKEN|localhost:1300|-59]
+17:17:59 - Sending PING message to Predecessor after WEAK_TIMEOUT[-62|localhost:1400|12|Pred|PING|localhost:1000|-50]
+17:17:59 - Sending message [-62|localhost:1400|13|Suc|PING|localhost:1300|-59]
+17:17:59 - Sending message [-62|localhost:1400|12|Pred|PING|localhost:1000|-50]
+17:18:00 - Got message [-59|localhost:1300|22|Suc|PONG|localhost:1400|-62]
+17:18:00 - Sending message [-62|localhost:1400|12|Pred|PING|localhost:1000|-50]
+17:18:00 - Got message [-59|localhost:1300|24|Pred|PING|localhost:1400|-62]
+17:18:00 - Sending PONG message [-62|localhost:1400|15|Pred|PONG|localhost:1300|-59]
+17:18:00 - Got message [-50|localhost:1000|43|Pred|PONG|localhost:1400|-62]
+17:18:01 - Got message [-50|localhost:1000|44|Pred|PONG|localhost:1400|-62]
+17:18:01 - Sending message [-62|localhost:1400|15|Pred|PONG|localhost:1300|-59]
+17:18:02 - Got message [-50|localhost:1000|45||UPDATE_CHORD|localhost:1400|-62]
+17:18:02 - File file3.txt stored successfully.
+17:18:02 - Sending inform message [-62|localhost:1400|16||UPDATE_CHORD|localhost:1300|-59]
+- STANJE U VIRUTAL STORAGE
+1:file1.txt --  inside node: 1000
+2:file3.txt --  inside node: 1000
+
+
+17:18:02 - Got message [-59|localhost:1300|24|Pred|PING|localhost:1400|-62]
+17:18:02 - Sending PONG message [-62|localhost:1400|17|Pred|PONG|localhost:1300|-59]
+17:18:02 - Got message [-50|localhost:1000|46||TOKEN|localhost:1400|-62]
+17:18:02 - Sending message [-62|localhost:1400|17|Pred|PONG|localhost:1300|-59]
+17:18:02 - Got message [-50|localhost:1000|47||UPDATE_CHORD|localhost:1400|-62]
+17:18:02 - File file2.txt stored successfully.
+17:18:02 - Sending inform message [-62|localhost:1400|19||UPDATE_CHORD|localhost:1300|-59]
+- STANJE U VIRUTAL STORAGE
+1:file1.txt --  inside node: 1000
+2:file3.txt --  inside node: 1000
+3:file2.txt --  inside node: 1200
+
+
+17:18:03 - Sending message [-62|localhost:1400|18||TOKEN|localhost:1300|-59]
+17:18:03 - Sending message [-62|localhost:1400|16||UPDATE_CHORD|localhost:1300|-59]
+17:18:03 - Sending message [-62|localhost:1400|19||UPDATE_CHORD|localhost:1300|-59]
+17:18:06 - Got message [-50|localhost:1000|49|Suc|PING|localhost:1400|-62]
+17:18:06 - Sending PONG message [-62|localhost:1400|20|Suc|PONG|localhost:1000|-50]
+17:18:07 - Got message [-50|localhost:1000|50||TOKEN|localhost:1400|-62]
+17:18:07 - Sending message [-62|localhost:1400|20|Suc|PONG|localhost:1000|-50]
+17:18:07 - Pausing for 10000 ms
+17:18:08 - Sending message [-62|localhost:1400|21||TOKEN|localhost:1300|-59]
+17:18:09 - Sending PING message to Predecessor[-62|localhost:1400|22|Pred|PING|localhost:1000|-50]
+17:18:09 - Sending PING message to Successor[-62|localhost:1400|23|Suc|PING|localhost:1300|-59]
+17:18:10 - Sending message [-62|localhost:1400|23|Suc|PING|localhost:1300|-59]
+17:18:10 - Sending message [-62|localhost:1400|22|Pred|PING|localhost:1000|-50]
+17:18:10 - Sending PING message to Predecessor after WEAK_TIMEOUT[-62|localhost:1400|22|Pred|PING|localhost:1000|-50]
+17:18:10 - Got message [-59|localhost:1300|32|Suc|PONG|localhost:1400|-62]
+17:18:11 - Sending message [-62|localhost:1400|22|Pred|PING|localhost:1000|-50]
+17:18:11 - Got message [-50|localhost:1000|52|Pred|PONG|localhost:1400|-62]
+17:18:11 - Got message [-59|localhost:1300|33|Pred|PING|localhost:1400|-62]
+17:18:11 - Sending PONG message [-62|localhost:1400|24|Pred|PONG|localhost:1300|-59]
+17:18:12 - Got message [-50|localhost:1000|53|Pred|PONG|localhost:1400|-62]
+17:18:12 - Sending message [-62|localhost:1400|24|Pred|PONG|localhost:1300|-59]
+17:18:13 - Got message [-50|localhost:1000|54||TOKEN|localhost:1400|-62]
+17:18:13 - Got message [-59|localhost:1300|33|Pred|PING|localhost:1400|-62]
+17:18:13 - Sending PONG message [-62|localhost:1400|26|Pred|PONG|localhost:1300|-59]
+17:18:13 - Sending message [-62|localhost:1400|26|Pred|PONG|localhost:1300|-59]
+17:18:13 - Sending message [-62|localhost:1400|25||TOKEN|localhost:1300|-59]
+17:18:17 - Got message [-50|localhost:1000|56|Suc|PING|localhost:1400|-62]
+17:18:17 - Sending PONG message [-62|localhost:1400|27|Suc|PONG|localhost:1000|-50]
+OVO JE CVOR: -62
+LISTA PRIJATELJA ZA NODE: 1400
+[]
+PRAZNA MI JE LISTA NEMAM PRIJATELJE
+17:18:17 - GET FILEEEE 1
+NIJE PRIJATELJ
+REQUESTED FILES [app.file.FileInfo@ffffffdb]
+17:18:17 - sent get msg [-62|localhost:1400|28||GET_REQUEST|localhost:1300|-59]
+17:18:17 - VIEW COMMAND 3
+17:18:17 - Pausing for 30000 ms
+17:18:17 - Got message [-50|localhost:1000|57||TOKEN|localhost:1400|-62]
+17:18:18 - Sending message [-62|localhost:1400|27|Suc|PONG|localhost:1000|-50]
+17:18:18 - Sending message [-62|localhost:1400|28||GET_REQUEST|localhost:1300|-59]
+17:18:19 - Sending message [-62|localhost:1400|29||TOKEN|localhost:1300|-59]
+17:18:20 - Sending PING message to Predecessor[-62|localhost:1400|30|Pred|PING|localhost:1000|-50]
+17:18:20 - Sending PING message to Successor[-62|localhost:1400|31|Suc|PING|localhost:1300|-59]
+17:18:21 - Sending PING message to Predecessor after WEAK_TIMEOUT[-62|localhost:1400|30|Pred|PING|localhost:1000|-50]
+17:18:21 - Sending message [-62|localhost:1400|31|Suc|PING|localhost:1300|-59]
+17:18:21 - Sending message [-62|localhost:1400|30|Pred|PING|localhost:1000|-50]
+17:18:22 - Sending message [-62|localhost:1400|30|Pred|PING|localhost:1000|-50]
+17:18:22 - Got message [-59|localhost:1300|40|Suc|PONG|localhost:1400|-62]
+17:18:22 - Got message [-50|localhost:1000|59|Pred|PONG|localhost:1400|-62]
+17:18:23 - Got message [-50|localhost:1000|60||GET_RESPONSE|localhost:1400|-62]
+GET RESPONSE HANDLER
+JA SAM TRAZIO
+REQUESTED AMOUNT 1
+AMOUNT 1
+17:18:23 - Printing requested files
+
+Location: file1.txt
+Content in file file1
+17:18:23 - Got message [-59|localhost:1300|41|Pred|PING|localhost:1400|-62]
+17:18:23 - Sending PONG message [-62|localhost:1400|32|Pred|PONG|localhost:1300|-59]
+17:18:23 - Got message [-50|localhost:1000|61|Pred|PONG|localhost:1400|-62]
+17:18:23 - Got message [-50|localhost:1000|62||TOKEN|localhost:1400|-62]
+17:18:23 - Got message [-59|localhost:1300|41|Pred|PING|localhost:1400|-62]
+17:18:23 - Sending PONG message [-62|localhost:1400|34|Pred|PONG|localhost:1300|-59]
+17:18:24 - Sending message [-62|localhost:1400|32|Pred|PONG|localhost:1300|-59]
+17:18:24 - Sending message [-62|localhost:1400|33||TOKEN|localhost:1300|-59]
+17:18:25 - Sending message [-62|localhost:1400|34|Pred|PONG|localhost:1300|-59]
+17:18:28 - Got message [-50|localhost:1000|64|Suc|PING|localhost:1400|-62]
+17:18:28 - Sending PONG message [-62|localhost:1400|35|Suc|PONG|localhost:1000|-50]
+17:18:29 - Got message [-50|localhost:1000|66||GET_RESPONSE|localhost:1400|-62]
+GET RESPONSE HANDLER
+NISAM JA TRAZIO SALJI DALJE
+17:18:29 - Got message [-50|localhost:1000|65||TOKEN|localhost:1400|-62]
+17:18:29 - Got message [-50|localhost:1000|67||GET_RESPONSE|localhost:1400|-62]
+GET RESPONSE HANDLER
+NISAM JA TRAZIO SALJI DALJE
+17:18:30 - Sending message [-62|localhost:1400|35|Suc|PONG|localhost:1000|-50]
+17:18:30 - Sending message [-50|localhost:1000|36||GET_RESPONSE|localhost:1300|-59]
+17:18:30 - Sending message [-62|localhost:1400|37||TOKEN|localhost:1300|-59]
+17:18:30 - Sending message [-50|localhost:1000|38||GET_RESPONSE|localhost:1300|-59]
+17:18:31 - Sending PING message to Predecessor[-62|localhost:1400|39|Pred|PING|localhost:1000|-50]
+17:18:31 - Sending PING message to Successor[-62|localhost:1400|40|Suc|PING|localhost:1300|-59]
+17:18:31 - Got message [-56|localhost:1200|69||GET_RESPONSE|localhost:1400|-62]
+GET RESPONSE HANDLER
+NISAM JA TRAZIO SALJI DALJE
+17:18:32 - Sending message [-62|localhost:1400|40|Suc|PING|localhost:1300|-59]
+17:18:32 - Sending message [-62|localhost:1400|39|Pred|PING|localhost:1000|-50]
+17:18:32 - Sending message [-56|localhost:1200|41||GET_RESPONSE|localhost:1300|-59]
+17:18:32 - Sending PING message to Predecessor after WEAK_TIMEOUT[-62|localhost:1400|39|Pred|PING|localhost:1000|-50]
+17:18:33 - Got message [-50|localhost:1000|70|Pred|PONG|localhost:1400|-62]
+17:18:33 - Got message [-59|localhost:1300|49|Suc|PONG|localhost:1400|-62]
+17:18:34 - Sending message [-62|localhost:1400|39|Pred|PING|localhost:1000|-50]
+17:18:34 - Got message [-59|localhost:1300|51|Pred|PING|localhost:1400|-62]
+17:18:34 - Sending PONG message [-62|localhost:1400|42|Pred|PONG|localhost:1300|-59]
+17:18:34 - Got message [-59|localhost:1300|51|Pred|PING|localhost:1400|-62]
+17:18:34 - Sending PONG message [-62|localhost:1400|43|Pred|PONG|localhost:1300|-59]
+17:18:34 - Sending message [-62|localhost:1400|42|Pred|PONG|localhost:1300|-59]
+17:18:34 - Got message [-50|localhost:1000|72|Pred|PONG|localhost:1400|-62]
+17:18:35 - Got message [-50|localhost:1000|71||TOKEN|localhost:1400|-62]
+17:18:35 - Sending message [-62|localhost:1400|43|Pred|PONG|localhost:1300|-59]
+17:18:36 - Sending message [-62|localhost:1400|44||TOKEN|localhost:1300|-59]
+17:18:39 - Got message [-50|localhost:1000|74|Suc|PING|localhost:1400|-62]
+17:18:39 - Sending PONG message [-62|localhost:1400|45|Suc|PONG|localhost:1000|-50]
+17:18:40 - Got message [-50|localhost:1000|75||TOKEN|localhost:1400|-62]
+17:18:40 - Sending message [-62|localhost:1400|45|Suc|PONG|localhost:1000|-50]
+17:18:41 - Sending message [-62|localhost:1400|46||TOKEN|localhost:1300|-59]
+17:18:42 - Sending PING message to Predecessor[-62|localhost:1400|47|Pred|PING|localhost:1000|-50]
+17:18:42 - Sending PING message to Successor[-62|localhost:1400|48|Suc|PING|localhost:1300|-59]
+17:18:43 - Sending message [-62|localhost:1400|47|Pred|PING|localhost:1000|-50]
+17:18:43 - Sending message [-62|localhost:1400|48|Suc|PING|localhost:1300|-59]
+17:18:43 - Sending PING message to Predecessor after WEAK_TIMEOUT[-62|localhost:1400|47|Pred|PING|localhost:1000|-50]
+17:18:44 - Got message [-59|localhost:1300|57|Suc|PONG|localhost:1400|-62]
+17:18:44 - Sending message [-62|localhost:1400|47|Pred|PING|localhost:1000|-50]
+17:18:44 - Got message [-50|localhost:1000|77|Pred|PONG|localhost:1400|-62]
+17:18:44 - Got message [-50|localhost:1000|79|Pred|PONG|localhost:1400|-62]
+17:18:45 - Got message [-59|localhost:1300|58|Pred|PING|localhost:1400|-62]
+17:18:45 - Sending PONG message [-62|localhost:1400|49|Pred|PONG|localhost:1300|-59]
+17:18:45 - Got message [-50|localhost:1000|78||TOKEN|localhost:1400|-62]
+17:18:45 - Got message [-59|localhost:1300|58|Pred|PING|localhost:1400|-62]
+17:18:45 - Sending PONG message [-62|localhost:1400|51|Pred|PONG|localhost:1300|-59]
+17:18:46 - Sending message [-62|localhost:1400|49|Pred|PONG|localhost:1300|-59]
+17:18:46 - Sending message [-62|localhost:1400|50||TOKEN|localhost:1300|-59]
+17:18:46 - Sending message [-62|localhost:1400|51|Pred|PONG|localhost:1300|-59]
+17:18:47 - Stopping...
+17:18:53 - Sending PING message to Predecessor[-62|localhost:1400|52|Pred|PING|localhost:1000|-50]
+17:18:53 - Sending PING message to Successor[-62|localhost:1400|53|Suc|PING|localhost:1300|-59]
+17:18:54 - Sending message [-62|localhost:1400|52|Pred|PING|localhost:1000|-50]
+17:18:54 - Sending PING message to Predecessor after WEAK_TIMEOUT[-62|localhost:1400|52|Pred|PING|localhost:1000|-50]
+17:18:54 - Sending message [-62|localhost:1400|53|Suc|PING|localhost:1300|-59]
+17:18:55 - Sending message [-62|localhost:1400|52|Pred|PING|localhost:1000|-50]
+17:19:04 - STRONG TIME OUT
+17:19:04 - Sending PING message to Successor after WEAK_TIMEOUT[-62|localhost:1400|53|Suc|PING|localhost:1300|-59]
+17:19:05 - Sending message [-62|localhost:1400|53|Suc|PING|localhost:1300|-59]
+17:19:14 - STRONG TIME OUT
+17:19:14 - Sending PING message to Predecessor[-62|localhost:1400|54|Pred|PING|localhost:1000|-50]
+17:19:14 - Sending PING message to Successor[-62|localhost:1400|55|Suc|PING|localhost:1300|-59]
+17:19:15 - Sending message [-62|localhost:1400|55|Suc|PING|localhost:1300|-59]
+17:19:15 - Sending PING message to Predecessor after WEAK_TIMEOUT[-62|localhost:1400|54|Pred|PING|localhost:1000|-50]
+17:19:15 - Sending message [-62|localhost:1400|54|Pred|PING|localhost:1000|-50]
+17:19:16 - Sending message [-62|localhost:1400|54|Pred|PING|localhost:1000|-50]
+17:19:25 - STRONG TIME OUT
+17:19:25 - Sending PING message to Successor after WEAK_TIMEOUT[-62|localhost:1400|55|Suc|PING|localhost:1300|-59]
+17:19:26 - Sending message [-62|localhost:1400|55|Suc|PING|localhost:1300|-59]
+17:19:35 - STRONG TIME OUT
+17:19:35 - Sending PING message to Predecessor[-62|localhost:1400|56|Pred|PING|localhost:1000|-50]
+17:19:35 - Sending PING message to Successor[-62|localhost:1400|57|Suc|PING|localhost:1300|-59]
+17:19:36 - Sending PING message to Predecessor after WEAK_TIMEOUT[-62|localhost:1400|56|Pred|PING|localhost:1000|-50]
+17:19:36 - Sending message [-62|localhost:1400|56|Pred|PING|localhost:1000|-50]
+17:19:37 - Sending message [-62|localhost:1400|57|Suc|PING|localhost:1300|-59]
+17:19:37 - Sending message [-62|localhost:1400|56|Pred|PING|localhost:1000|-50]
+17:19:46 - STRONG TIME OUT
+17:19:46 - Sending PING message to Successor after WEAK_TIMEOUT[-62|localhost:1400|57|Suc|PING|localhost:1300|-59]
+17:19:47 - Sending message [-62|localhost:1400|57|Suc|PING|localhost:1300|-59]
+17:19:56 - STRONG TIME OUT
+17:19:56 - Sending PING message to Predecessor[-62|localhost:1400|58|Pred|PING|localhost:1000|-50]
+17:19:56 - Sending PING message to Successor[-62|localhost:1400|59|Suc|PING|localhost:1300|-59]
+17:19:57 - Sending message [-62|localhost:1400|59|Suc|PING|localhost:1300|-59]
+17:19:57 - Sending PING message to Predecessor after WEAK_TIMEOUT[-62|localhost:1400|58|Pred|PING|localhost:1000|-50]
+17:19:57 - Sending message [-62|localhost:1400|58|Pred|PING|localhost:1000|-50]
+17:19:58 - Sending message [-62|localhost:1400|58|Pred|PING|localhost:1000|-50]
+17:20:07 - STRONG TIME OUT
+17:20:07 - Sending PING message to Successor after WEAK_TIMEOUT[-62|localhost:1400|59|Suc|PING|localhost:1300|-59]
+17:20:08 - Sending message [-62|localhost:1400|59|Suc|PING|localhost:1300|-59]
+17:20:17 - STRONG TIME OUT
+17:20:17 - Sending PING message to Predecessor[-62|localhost:1400|60|Pred|PING|localhost:1000|-50]
+17:20:17 - Sending PING message to Successor[-62|localhost:1400|61|Suc|PING|localhost:1300|-59]
+17:20:18 - Sending PING message to Predecessor after WEAK_TIMEOUT[-62|localhost:1400|60|Pred|PING|localhost:1000|-50]
+17:20:18 - Sending message [-62|localhost:1400|60|Pred|PING|localhost:1000|-50]
+17:20:18 - Sending message [-62|localhost:1400|61|Suc|PING|localhost:1300|-59]
+17:20:19 - Sending message [-62|localhost:1400|60|Pred|PING|localhost:1000|-50]
+17:20:28 - STRONG TIME OUT
+17:20:28 - Sending PING message to Successor after WEAK_TIMEOUT[-62|localhost:1400|61|Suc|PING|localhost:1300|-59]
+17:20:29 - Sending message [-62|localhost:1400|61|Suc|PING|localhost:1300|-59]
+17:20:38 - STRONG TIME OUT
+17:20:38 - Sending PING message to Predecessor[-62|localhost:1400|62|Pred|PING|localhost:1000|-50]
+17:20:38 - Sending PING message to Successor[-62|localhost:1400|63|Suc|PING|localhost:1300|-59]
+17:20:39 - Sending message [-62|localhost:1400|63|Suc|PING|localhost:1300|-59]
+17:20:39 - Sending PING message to Predecessor after WEAK_TIMEOUT[-62|localhost:1400|62|Pred|PING|localhost:1000|-50]
+17:20:40 - Sending message [-62|localhost:1400|62|Pred|PING|localhost:1000|-50]
+17:20:41 - Sending message [-62|localhost:1400|62|Pred|PING|localhost:1000|-50]
+17:20:49 - STRONG TIME OUT
+17:20:49 - Sending PING message to Successor after WEAK_TIMEOUT[-62|localhost:1400|63|Suc|PING|localhost:1300|-59]
+17:20:50 - Sending message [-62|localhost:1400|63|Suc|PING|localhost:1300|-59]
+17:20:59 - STRONG TIME OUT
+17:20:59 - Sending PING message to Predecessor[-62|localhost:1400|64|Pred|PING|localhost:1000|-50]
+17:20:59 - Sending PING message to Successor[-62|localhost:1400|65|Suc|PING|localhost:1300|-59]
+17:21:00 - Sending message [-62|localhost:1400|64|Pred|PING|localhost:1000|-50]
+17:21:00 - Sending PING message to Predecessor after WEAK_TIMEOUT[-62|localhost:1400|64|Pred|PING|localhost:1000|-50]
+17:21:00 - Sending message [-62|localhost:1400|65|Suc|PING|localhost:1300|-59]
+17:21:01 - Sending message [-62|localhost:1400|64|Pred|PING|localhost:1000|-50]
